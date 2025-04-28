@@ -1,3 +1,5 @@
 <?php
 
-echo 'test';
+if ($_GET['test']) {
+    echo 'test';
+}
