@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: relative;
+    height: 2500px;
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+#nav-section {
+    padding: .5rem 0;
+    color: white;
+    background: rgba(20, 2, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#nav-section .nav .nav-link {
+    color: white;
+}
+#nav-section .nav .nav-link:hover {
+    color: #b68834;
+}
+
+#banner-section {
+    background: url('../assets/img/header-bg.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.banner-row {
+    height: 886px;
+}
+
+.banner-row p {
+    color: white;
+}
+
+.banner-row .banner-top_text {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.banner-row .banner-text {
+    font-size: 4.25rem;
+    font-weight: 700;
+}
