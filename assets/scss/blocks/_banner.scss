@@ -1,0 +1,23 @@
+#banner-section {
+  background: url('../img/header-bg.jpg') no-repeat center center;
+  background-size: cover;
+
+  .banner-row {
+    height: 886px;
+
+    p {
+      color: white;
+    }
+
+    .banner-top_text {
+      text-transform: uppercase;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .banner-text {
+      font-size: 4.25rem;
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "mixins";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  position: relative;
+  height: 2500px;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+@import "parts/section-title";
+
+@import 'blocks/nav';
+@import 'blocks/banner';
+@import "blocks/about";
+@import "blocks/coffee";
+@import "blocks/gallery";
