@@ -1,0 +1,17 @@
+#nav-section {
+  padding: .5rem 0;
+  color: white;
+  background: rgba(20, 2, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+
+  .nav .nav-link {
+    color: white;
+
+    &:hover {
+      color: #b68834;
+    }
+  }
+}

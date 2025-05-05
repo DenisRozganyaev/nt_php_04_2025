@@ -1,0 +1,46 @@
+.video {
+  &-wrapper {
+    @include flex-center;
+    position: relative;
+    //transition: all .3s ease-in;
+
+    &:hover {
+      cursor: pointer;
+
+      &::before {
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+
+      &::after {
+        zoom: 1.5;
+      }
+    }
+
+    &::before {
+      content: '';
+      background-color: rgba(0, 0, 0, 0.7);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 2%;
+      transition: all .3s ease-in;
+    }
+    &::after {
+      content: '';
+      background: url('../img/play-icon.png') no-repeat center center;
+      background-size: initial;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transition: all .5s ease-out;
+    }
+  }
+
+  &-image {
+    max-width: 100%;
+  }
+}

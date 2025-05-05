@@ -1,0 +1,35 @@
+.gallery {
+  &-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+
+    &_left {
+      display: grid;
+      gap: 2rem;
+      align-items: stretch;
+    }
+    &_right {
+      display: grid;
+      grid-template-rows: 1.5fr 1fr;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      align-items: stretch;
+      justify-content: stretch;
+
+      &-bottom {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        align-items: end;
+      }
+    }
+  }
+  &-image {
+    display: grid;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+}
