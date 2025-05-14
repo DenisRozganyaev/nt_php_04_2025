@@ -2,7 +2,6 @@
     "name": "apple/nt_php_04_2025",
     "autoload": {
         "psr-4": {
-            "Apple\\NtPhp042025\\": "src/"
         }
     },
     "authors": [
